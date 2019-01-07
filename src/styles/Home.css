@@ -1,0 +1,71 @@
+.home-container {
+    color: inherit;
+}
+
+.home-header {
+  padding-top: 180px;
+  color: #fff;
+  background-color: #2ec2ff;
+  background-image: -webkit-linear-gradient(225deg, #2ec2ff, #0063ff);
+  background-image: linear-gradient(225deg, #2ec2ff, #0063ff);
+  margin-bottom: 9vw;
+  border-bottom-left-radius: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.home-header .section-header-logo-img {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.home-header .section-header-logo-img img {
+  width: calc(100% + 100px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  opacity: 0.07;
+}
+
+.home-header-text {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  word-spacing: -2em;
+  position: relative;
+  z-index: 1;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.home-header-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  margin-bottom: -16.1vw;
+}
+
+.template-logo-iconosquare {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNS43OTQiIGhlaWdodD0iNTEuNDQ1Ij48c3ZnOmRlZnM+PHN2ZzpsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDI9IjAiIHkxPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjRmN2ZiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9zdmc6bGluZWFyR3JhZGllbnQ+PC9zdmc6ZGVmcz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDQuNiAxNi45bDE1LjMgMTUuMyAzLjUgMy41IDE1IDE1di00M2MwLTMuNC0yLjgtNi4yLTYuMi02LjJINTguNUw0NC42IDE1LjRzLS43LjcgMCAxLjV6IiBmaWxsPSJ1cmwoI2EpIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjA0OTMzIDAgMCAxLjA0NTYzIC00Ni40NzQgLTEuNTY4KSIvPjwvc3ZnPg==),
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OC44IiBoZWlnaHQ9IjMzLjczOSI+PHN2ZzpkZWZzPjxzdmc6bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIwIiB5MT0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2Y0ZjdmYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZiIvPjwvc3ZnOmxpbmVhckdyYWRpZW50Pjwvc3ZnOmRlZnM+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1LjcgMzQuOGwuMi4yYy4zLjIuOC41IDEuNS0uMmwxNC40LTE0LjQgNC4yLTQuMkw1MC43IDEuNUg4LjFjLTMuNCAwLTYuMiAyLjgtNi4yIDYuMnYxMy4yeiIgZmlsbD0idXJsKCNhKSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuOSAtMS41KSIvPjwvc3ZnPg==),
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNS43OTQiIGhlaWdodD0iNTEuNDQ1Ij48c3ZnOmRlZnM+PHN2ZzpsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDI9IjAiIHkxPSIwIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjRmN2ZiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9zdmc6bGluZWFyR3JhZGllbnQ+PC9zdmc6ZGVmcz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDQuNiAxNi45bDE1LjMgMTUuMyAzLjUgMy41IDE1IDE1di00M2MwLTMuNC0yLjgtNi4yLTYuMi02LjJINTguNUw0NC42IDE1LjRzLS43LjcgMCAxLjV6IiBmaWxsPSJ1cmwoI2EpIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjA0OTMzIDAgMCAxLjA0NTYzIC00Ni40NzQgLTEuNTY4KSIvPjwvc3ZnPg==),
+    url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMy42NDQiIGhlaWdodD0iNDkuMyI+PHN2ZzpkZWZzPjxzdmc6bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgyPSIwIiB5MT0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2Y0ZjdmYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZiIvPjwvc3ZnOmxpbmVhckdyYWRpZW50Pjwvc3ZnOmRlZnM+PHBhdGggY2xhc3M9InN0MCIgZD0iTTM1LjEgNjEuOUwyMC45IDQ3LjhsLTQuMy00LjNMMS45IDI4Ljd2NDMuMWMwIDMuNCAyLjggNi4yIDYuMiA2LjJIMjFsMTQuMS0xNC4xYzEtMSAwLTIgMC0yeiIgZmlsbD0idXJsKCNhKSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuOSAtMjguNykiLz48L3N2Zz4=);
+  background-position: 101% 10%, -1% 40%, 101% 60%, -1% 100%;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 720px) {
+  .home-header {
+    border-bottom-left-radius: 50px;
+  }
+  .template-logo-iconosquare {
+    background-image: none;
+  }
+}
