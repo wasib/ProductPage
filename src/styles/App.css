@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: CircularStd-Medium,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-weight: 300;
+  color: #2d2f39;
+  line-height: 1.25;
+  margin: 0;
+}

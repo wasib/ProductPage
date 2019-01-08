@@ -1,54 +1,5 @@
 .home-container {
-    color: inherit;
-}
-
-.home-header {
-  padding-top: 180px;
-  color: #fff;
-  background-color: #2ec2ff;
-  background-image: -webkit-linear-gradient(225deg, #2ec2ff, #0063ff);
-  background-image: linear-gradient(225deg, #2ec2ff, #0063ff);
-  margin-bottom: 9vw;
-  border-bottom-left-radius: 200px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-}
-
-.home-header .section-header-logo-img {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-
-.home-header .section-header-logo-img img {
-  width: calc(100% + 100px);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
-  opacity: 0.07;
-}
-
-.home-header-text {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-  word-spacing: -2em;
-  position: relative;
-  z-index: 1;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-.home-header-img {
-  width: calc(100% + 60px);
-  margin-left: -30px;
-  margin-bottom: -16.1vw;
+  color: inherit;
 }
 
 .template-logo-iconosquare {
@@ -62,9 +13,6 @@
 }
 
 @media screen and (max-width: 720px) {
-  .home-header {
-    border-bottom-left-radius: 50px;
-  }
   .template-logo-iconosquare {
     background-image: none;
   }
