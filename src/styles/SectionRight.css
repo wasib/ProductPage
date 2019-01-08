@@ -1,0 +1,55 @@
+.section {
+    padding: 100px 10em;
+  }
+  
+  .section-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-right .text {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: left;
+    max-width:40%;
+  }
+  
+  .text-heading {
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom:20px;
+  }
+  
+  .text-info{
+      font-size: 1.5em;
+  }
+  
+  .section-right .image {
+    max-width: none;
+    white-space: normal;
+    text-align: right;
+  }
+  
+  .section-right .image img {
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .section {
+      padding: 45px 30px;
+    }
+  
+    .section-right {
+      flex-flow: row wrap;
+    }
+  
+    .section-right .text {
+      margin-left: 0px;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Section1.css";
 
-const HomeHeader = props => {
+const Section1 = props => {
   return (
     <section className="section1">
       <div className="icon-container">
@@ -12,4 +12,4 @@ const HomeHeader = props => {
   );
 };
 
-export default HomeHeader;
+export default Section1;

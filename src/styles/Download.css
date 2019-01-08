@@ -1,0 +1,22 @@
+.download-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.download-icons img {
+  padding-right: 10px;
+  height: 50px;
+}
+
+@media screen and (max-width: 720px) {
+  .download-icons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-icons img {
+    padding-bottom: 10px;
+  }
+}
