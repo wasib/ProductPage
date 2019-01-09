@@ -19,13 +19,13 @@ const HomeHeader = props => {
           <a className="home-header-button">Start 14 day Free Trial</a>
           <span> No credit card required </span>
         </div>
-      </Fade>
 
-      <img
-        src={require("../images/home_header.png")}
-        alt
-        className="home-header-img"
-      />
+        <img
+          src={require("../images/home_header.png")}
+          alt
+          className="home-header-img"
+        />
+      </Fade>
     </section>
   );
 };
